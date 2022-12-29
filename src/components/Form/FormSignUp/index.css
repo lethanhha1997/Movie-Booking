@@ -1,0 +1,10 @@
+/* #username-field  , #password-field , #email-field , #phone-field , #manhom-field , #name-field , #end-field    {
+    display: flex;
+    height: 400px ; 
+    align-items: center;
+    flex-direction: column;
+    transform: all .1s;
+}
+.btn-sigup {
+    margin: 35%;
+} */

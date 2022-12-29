@@ -1,0 +1,37 @@
+.top-to-btm{
+    position: relative;
+  }
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon-style{
+    background-color: #9bd40b;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .3s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: #9bd40b;
+    border: 2px solid #9bd40b;
+  }
+  @keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+   50%{
+      transform: translateY(10px);
+    }
+   100%{
+      transform: translateY(0px);
+    }
+  }

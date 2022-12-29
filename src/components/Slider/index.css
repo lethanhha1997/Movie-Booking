@@ -1,0 +1,30 @@
+#root .carousel{
+    position: relative;
+    margin-top: 70px;
+}
+#root .carousel .carousel-indicators button{
+    border-radius: 50%;
+    width: 12px;
+    height:12px;
+    margin: 0 10px;
+}
+#root .carousel .carousel-indicators .active{
+    background-color: #7fae06;
+}
+.icon-play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-play svg {
+    width: 80px;
+    height: 80px;
+    color: rgba(236, 239, 241, 0.998);
+    opacity: 0;
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+.carousel-inner:hover .icon-play svg {
+    opacity: 1;
+}

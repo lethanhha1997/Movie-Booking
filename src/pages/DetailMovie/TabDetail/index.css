@@ -1,0 +1,34 @@
+.detail-tabs{
+    background-color: #0d0f20;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+.detail-tabs .title-detail{
+    color: white;
+}
+@media (max-width:600px) {
+    .detail-tabs{
+        width:90%; 
+        margin: 50px auto;
+    }
+}
+@media (min-width:768px) {
+    .detail-tabs{
+        width:80%;
+        margin: 50px auto;
+    }
+}
+@media (min-width: 1024px) {
+    .detail-tabs{
+        width:60%;
+        margin: 50px auto;
+    }
+}
+@media (min-width: 1200px) {
+    .detail-tabs{
+        width: 50%;
+        margin: 50px auto;
+    }
+}

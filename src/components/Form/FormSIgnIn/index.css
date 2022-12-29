@@ -1,0 +1,7 @@
+.btnSignIn {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    transition: all 1s;
+}
+.btnSignIn:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

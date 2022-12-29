@@ -1,0 +1,142 @@
+.user-login {
+    background-image: url('../../../../public/assets/img/bg-login-jira.jpg');
+    height:790px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+}
+.user-login::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.9);
+}
+.username , .password {
+    position: relative;
+}
+.username {
+    margin-bottom: 60px;
+}
+.form-login {
+    width: 500px;
+    height: 700px;
+    background: -webkit-linear-gradient(top,#7579ff,#b224ef);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    padding: 55px 55px 37px;
+}
+.form-header {
+    text-align: center;
+}
+.form-logo {
+    font-size: 40px;
+    background: white;
+    display: inline-block;
+    /* margin: 0px; */
+    height: 100px;
+    width: 100px;
+    line-height: 90px;
+    border-radius: 50%;
+    text-align: center;
+}
+.form-title {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+/* .label-form-signin {
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+} */
+.warning-form-input {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+.form-logo-input {
+    color: white;
+    font-size: 18px;
+    transform: translate(5px , -40px);
+    display: inline-block;
+    transition: all .3s;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
+
+#username , #password {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+#username::placeholder, #password::placeholder {
+    color: white;
+    font-size: 16px;
+}
+#username:focus::placeholder , #password:focus::placeholder {
+    opacity: 0;
+}
+#username:focus , #password:focus  {
+    padding-left: 0px;
+}
+#username:focus ~ .form-logo-input , #password:focus ~ .form-logo-input  {
+    transform: translate(5px , -65px);
+}
+
+.form-body {
+    margin-top: 40px;
+}
+.remember-me div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#remember {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#remember ~ label {
+    color: white;
+    font-size: 16px;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.btn-login-form-input {
+    font-family: Poppins-Medium;
+    color: #555;
+    /* background: -webkit-linear-gradient(bottom,#7579ff,#b224ef); */
+    letter-spacing: 1px;
+    font-size: 18px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-weight: 700;
+    transition: all .8s;
+}
+.btn-login-form-input:hover {
+    color: white;
+    background: -webkit-linear-gradient(bottom,#7579ff,#b224ef);
+}

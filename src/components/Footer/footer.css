@@ -1,0 +1,108 @@
+.footer {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESO_-_Milky_Way.jpg/700px-ESO_-_Milky_Way.jpg')
+}
+
+.footer-logo {
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-contact p {
+    color: white;
+}
+
+.footer-title {
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    border-left: 4px solid #7fae06;
+    padding-left: 8px;
+}
+
+.footer-item {
+    position: relative;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list svg {
+    margin-right: 0;
+}
+
+.footer-list li {
+    padding: 4px 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+
+}
+
+.footer-list a:hover {
+    color: #7fae06;
+    transition: ease-in-out .2s;
+}
+
+.footer-icon {
+    padding-left: 6px;
+}
+
+.footer-icon svg {
+    font-size: 22px;
+    margin: 0 8px;
+}
+
+.fb:hover {
+    color: rgb(58, 58, 247);
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+.insta:hover {
+    color: #d200db;
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+.ytb:hover {
+    color: #f5222d;
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+.icon {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.footer-dowload {
+    padding-left: 8px;
+}
+
+.footer-dowload svg {
+    font-size: 32px;
+}
+
+.apple:hover {
+    color: lightslategrey;
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+.androi:hover {
+    color: #7fae06;
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}

@@ -1,0 +1,145 @@
+.container-tabs__cinema {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.tabs-cinema {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bd-cinema {
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.empty-area {
+    height: 120px;
+    margin: auto;
+    width: 100%;
+    background: url(https://moveek.com/build/images/tix-banner.36bfeb64.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.title-cinema,
+.title-movie {
+    padding-left: 8px;
+    /* border-right: 4px solid red; */
+}
+
+.title-cinema h6 {
+    color: #a0d911;
+    font-weight: bold;
+}
+
+.title-cinema p {
+    color: white;
+}
+
+.tabs-cinema .movie-list {
+    border-bottom: 2px solid #636262;
+}
+
+.tabs-cinema .nav-pills .nav-link {
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+.tabs-cinema .nav-pills .nav-link:hover {
+    opacity: 1;
+}
+
+.tabs-cinema .nav-pills .nav-link.active {
+    opacity: 1;
+    background-color: transparent;
+    border-right: 4px solid #7fae06;
+    border-radius: 0;
+}
+
+.title-movie h6 {
+    color: #a0d911;
+}
+
+.title-movie p {
+    color: white;
+}
+
+.title-movie .rating {
+    color: #c2c0c0;
+}
+
+.date-movie {
+    color: white;
+    font-weight: bold;
+}
+
+.movie-list__time {
+    font-weight: 400;
+}
+
+.movie-list__time:hover {
+    color: #7fae06;
+}
+
+.tab-content .btn-hour {
+    display: block;
+    padding: 0 12px;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-weight: bolder;
+    margin: 8px 0;
+    min-width: 114px;
+
+}
+
+.tab-content .btn-hour:hover {
+    color: #bae637;
+    border-color: transparent;
+    transition: color .12s ease-in-out;
+}
+
+.tab-cinema__title {
+    border-left: 4px solid #7fae06;
+    padding-left: 8px;
+    color: white;
+}
+
+.scroll-y-tabs {
+    height: 400px;
+    overflow: hidden auto;
+}
+
+.scroll-y-tabs::-webkit-scrollbar {
+    width: 8px;
+    height: 100px;
+}
+
+.scroll-y-tabs::-webkit-scrollbar-track {
+    background: #080a1bf9;
+}
+
+.scroll-y-tabs::-webkit-scrollbar-thumb {
+    background-color: #302e2e;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.scroll-y-tabs::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+
+@media (min-width: 1024px) {
+    .tabs-cinema {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tabs-cinema {
+        width: 67%;
+        margin: 0 auto;
+    }
+}

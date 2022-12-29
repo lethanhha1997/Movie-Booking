@@ -1,0 +1,33 @@
+.form-login-user{
+    background: url('../../asset/img/wallpaperbetter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+    display: flex;
+}
+.btnSignIn {
+    width: 100%;
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    transition: all 1s;
+}
+.btnSignIn:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn-dangky{
+    color: rgb(90, 160, 20);
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+.btn-dangky:hover{
+    color: rgb(56, 106, 6);
+}
+.form-login-user .col-form{
+    border:  2px solid white;
+    border-radius: 8px;
+    padding: 10px ;
+    background-color: rgba(255, 255, 255, 0.916);
+}
+.form-login-user .row-form{
+    transform: translateY(40%);
+}

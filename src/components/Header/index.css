@@ -1,0 +1,136 @@
+#root .navbar {
+    box-shadow: rgba(255, 255, 255, 0.8) 0px -40px 20px -33px inset;
+    background-color: rgba(0, 0, 0, 0.905);
+    max-height: 70px;
+    min-height: 70px;
+}
+
+#root .navbar .container-fluid {
+    padding: 0 2%;
+}
+
+
+.img-logo img {
+    max-height: 46px;
+}
+
+.menu a {
+    color: white;
+    font-weight: 500;
+}
+
+#root .nav-link.active {
+    color: #a0d911;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #a0d911;
+    transition: ease-in-out .3s;
+}
+
+
+#root .navbar-toggler {
+    border: none;
+    color: transparent;
+}
+
+.navbar__link-separator {
+    border-right: 2px solid white;
+    height: 1.5rem;
+    margin: 0 6px;
+}
+
+.btn-header {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-header:hover {
+    color: #7cb305;
+    transition: ease-in .2s;
+}
+.icon-header{
+    color: #a0d911;
+   
+}
+.navbar-collapse{
+    z-index: 4;
+}
+/* modal sign up */
+.myModalBodySignUp {
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 1s ;
+}
+.myModalBodySignUp:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.modal-header {
+    border-bottom : transparent
+}
+.modal-header .btn-close {
+    margin: 0px;
+}
+.modal-title {
+    margin-left: 40%;
+    color: #7cb305;
+}
+/* modal sign in */
+.modalBodySignIn , .modalHeaderSignIn {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    opacity : 0.9 ;
+    
+}
+
+.modalBodySignIn {
+    border-radius: 0px 0px 8px 8px;
+}   
+.modal-content {
+    margin-top: 10%;
+}
+.modalHeaderSignIn .modal-title {
+    color: white;
+} 
+.modalHeaderSignIn .btn-close {
+    color: white;
+}
+
+
+
+#root .container-fluid .navbar-toggler-icon {
+    background-color: white;
+}
+
+@media screen and (max-width: 767px) {
+    svg {
+        margin-right: 10px;
+    }
+
+    #root .navbar-nav {
+        /* background-color: white; */
+        color: black;
+        padding-bottom: 10px;
+    }
+
+    #root .navbar-nav a {
+        color: #4a4a4a;
+        padding-left: 20px;
+    }
+    .navbar-collapse{
+        background-color: white;
+        border-bottom: 4px solid black;
+    }
+    
+
+    .btn-header {
+        color: #4a4a4a;
+
+    }
+    .btn-header:hover {
+        background: transparent !important;
+    }
+
+}

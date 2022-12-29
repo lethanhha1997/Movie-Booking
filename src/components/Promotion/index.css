@@ -1,0 +1,65 @@
+.promotion {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#root .promotion .row .card {
+    --bs-card-border-width: 0px;
+}
+
+.promotion-title {
+    color: white;
+    border-left: 4px solid #7fae06;
+    padding-left: 8px;
+}
+
+.promotion-img {
+    cursor: pointer;
+    background-color: #080a1bf9;
+}
+
+.promotion-img img {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+}
+
+.promotion-img:hover img {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+    .promotion {
+        width: 88%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .promotion {
+        width: 78%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .promotion {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
